@@ -9,6 +9,14 @@
 	color:white;
 }
 
+.darkbasicsect p {
+	color:#c1c1c1;
+}
+
+.darkbasicsect2 p {
+	color:#c1c1c1;
+}
+
 .darksect2{
 	max-width: 100%;
 	margin-left: auto;
@@ -32,6 +40,17 @@
 	color:white;
 }
 
+.darkbasicsect2{
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	padding-bottom:0px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	background-color:#3f3f3f;
+	color:white;
+}
 
 
 .bottomsect{
@@ -51,6 +70,17 @@
 	margin-right: auto;
 	padding-top: 50px;
 	padding-bottom:50px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	background-color:#f7f7f7;
+}
+
+.basicsect2{
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom:0px;
 	margin-top: 20px;
 	margin-bottom: 0px;
 	background-color:#f7f7f7;
@@ -89,20 +119,23 @@
 
 p{
 	text-align:justify;
+	font-weight:normal;
+	font-size:15px;
+	line-height: 25px;
 }
 
 body{
 	margin: 0px;
-	font-family: 'Khula', sans-serif;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 
+}
 
+.laptop{
+	background:#636363;
 }
 
 
 
-p{ 
-text-align: justify;
- }
 
 
 nav{
@@ -180,7 +213,7 @@ h1 {
 	margin:0;
 	padding:0;
 	font-weight:bold;
-	line-height:50px;
+	line-height:80px;
 
 }
 
@@ -193,24 +226,19 @@ h2 {
 }
 
 h3 {
-	font-size:50px;
+	font-size:45px;
 	margin:0;
 	padding:0;
-	font-weight:bold;
-	line-height:50px;
+	font-weight:normal;
+	line-height:45px;
+
 }
+
+
 
 .grid-row{
 	width: 100%;
 	overflow: hidden;
-}
-
-.grid-row img{
-	width: 400px; 
-}
-
-.grid-row video{
-	width:300px;
 }
 
 
@@ -230,6 +258,24 @@ h3 {
 	float:right;
 }
 
+.grid-50{
+	width: 50%;
+	float: left;
+	text-align:center;
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:80px;
+	padding-bottom:10px;
+}
+
+.grid-50 .message1{
+	float:right;
+}
+
+.grid-50 .message2{
+	float:left;
+}
+
 .grid-text{
 	width:53%;
 	float: left;
@@ -237,15 +283,25 @@ h3 {
 	padding-left:20px;
 }
 
-
-.padded{
-	padding: 20px; 
-}
-
-.grid-third{
-	width: 33.3%;
+.grid-text2{
+	width:53%;
 	float: left;
+	padding-top:40px;
+	padding-left:20px;
 }
+
+.grid-100{
+	text-align:center;
+	padding-top:30px;
+}
+
+.grid-100 p {
+	width: 1000px;
+	margin:0 auto;
+}
+
+
+
 
 .p2{
 	text-align:center;
@@ -258,7 +314,7 @@ h3 {
 }
 
 .paragraph {
-	width:460px;
+	width:430px;
 }
 
 
